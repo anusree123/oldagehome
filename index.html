@@ -79,15 +79,12 @@ function MM_swapImage() { //v3.0
 
 	         <ul id="nav" class="nav">
 	            <li><a class="smoothscroll" href="#hero">Home</a></li>
-		         <li class="current"><a class="login" href="#login">Login</a></li>
+		        
+                        <li class="current"><a class="smoothscroll" href="#login">Login</a></li>
+                      <li class="current"><a class="smoothscroll" href="#userreg">Registration</a></li>
+                       <li class="current"><a class="smoothscroll" href="#admissionrequest">Admission</a></li>
                            
-	          
- 
-	            
-	            
-                     
-                     <li><a class="current" href="#viewrecord">Record</a></li>
-                      <li><a  class="current" href="#viewcomplaint">Complaint</a></li>
+	        <li><a class="smoothscroll" href="#donationbooking">Donation</a></li>
                      
 	         </ul> <!-- end #nav -->
 
@@ -433,11 +430,260 @@ function MM_swapImage() { //v3.0
 
 
 
+<section id="userreg">
+
+<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>register<span>.</span></h1>
+
+	         <hr />	        
+
+      </div>
+
+     </div>
+<h1 align="center">USER REGISTRATION</h1>
+ 		<table align="center">
+ 			<tr>
+ 				<td><b>Name</td>
+ 				<td>
+ 					<input type="text" name="name" placeholder="Enter your name" required="">
+
+ 				</td>
+ 				<td>
+ 				</td>
+ 				<td></td>
+ 				<td>
+ 					<input type="file" name="filename">
+ 					<img src="#">
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Age</td>
+ 				<td>
+ 					<input type="text" name="Age" placeholder="Enter your age" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Relationship</td>
+ 				<td>
+ 					<input type="text" name="relationship" placeholder="Enter your relationship" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Gender</td>
+ 				<td> <b><input type="radio" name="Gender" value="Male">Male</td>
+ 				<td><b><input type="radio" name="Gender" value="Female">Female</td>
+ 			</tr>
+ 			<tr>
+ 				<td><b>Phone number</td>
+ 				<td>
+ 					<input type="text" name="phone number" placeholder="Enter your phone number" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>E-mail</td>
+ 				<td>
+ 					<input type="text" name="E-mail" placeholder="Enter your E-mail" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Password</td>
+ 				<td>
+ 					<input type="text" name="Password" placeholder="Enter your Password" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Confirm password</td>
+ 				<td>
+ 					<input type="text" name="confirmpassword" placeholder="Enter your password" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td></td>
+ 				<td><input type="submit" name=""log" value="REGISTER"></td>
+ 			</tr>
+ 		</table>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="admissionrequest">
+
+<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>admission<span>.</span></h1>
+
+	         <hr />	        
+
+      </div>
+
+     </div>
+<h1 align="center">ADMISSION</h1>
+ 		<table align="center">
+ 			<tr>
+ 				<td><b>Name</td>
+ 				<td>
+ 					<input type="text" name="name" placeholder="Enter your name" required="">
+
+ 				</td>
+ 				<td>
+ 				</td>
+ 				<td></td>
+ 				<td>
+ 					<input type="file" name="filename">
+ 					<img src="#">
+ 				</td>
+
+ 			</tr>
+ 			
+ 			<tr>
+ 				<td><b>Phone number</td>
+ 				<td>
+ 					<input type="text" name="phone number" placeholder="Enter your phone number" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>Address</td>
+ 				<td>
+ 					<textarea rows="4" cols="30" input type="text" name="Address" placeholder="Enter your Address" required="" >
+ 					</textarea>
+
+
+ 				</td>
+
+ 			</tr>
+ 				<tr>
+ 				<td><b>Date of birth</td>
+ 				<td>
+ 					<input type="text" name="BOB" placeholder="Enter your DOB" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			 			<tr>
+ 				<td><b>Gender</td>
+ 				<td> <b><input type="radio" name="Gender" value="Male">Male</td>
+ 				<td><b><input type="radio" name="Gender" value="Female">Female</td>
+ 			</tr>
+ 			<tr>
+ 				<td></td>
+ 				<td><input type="submit" name=""log" value="REQUEST"></td>
+ 			</tr>
+ 		</table>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!-- About Section
+   ================================================== -->
+<section id="donationbooking">
+
+<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>donation<span>.</span></h1>
+
+	         <hr />	        
+
+      </div>
+
+     </div>
+<h1 align="center">DONATION BOOKING</h1>
+ 		<table align="center">
+ 			
+
+ 			<tr>
+ 				<td> <b> Donation Type</td>
+ 					<td>
+ 
+ 			<select name="Donation Type">
+ 				<option value="Donate food Request">Donate food Request </option>
+ 				<option value="Donate Fund Request"> Donate Fund Request</option>
+ 				<option value="Donate equipment Request"> Donate equipment Request</option>
+ 			</select>
+ 		</td>
+ 		</tr>
+ 		<tr>
+ 				<td><b>Date of donation</td>
+ 				<td>
+ 					<input type="text" name="Age" placeholder="" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td><b>purpose of donation</td>
+ 				<td>
+ 					<input type="text" name="purpose" placeholder="" required="">
+
+ 				</td>
+
+ 			</tr>
+ 			<tr>
+ 				<td></td>
+ 				<td><input type="submit" name=""log" value="REQUEST"></td>
+ 			</tr>
+ 		</table>
+</section>
+ 	
+   
+   <!-- Testimonials Section
+   ================================================== -->
+ 
+  
+   
+
+
+   <!-- contact
+   ================================================== -->
+  
 
 
    <!-- Footer
    ================================================== -->
-<footer>
+ <footer>
 
       <div class="row">  
 
